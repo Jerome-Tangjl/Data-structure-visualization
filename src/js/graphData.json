@@ -1,0 +1,34 @@
+{
+	"nodes": [],
+	"links": [],
+	"categories": [{
+			"name": "我",
+			"symbolSize": 40,
+			"label": {
+				"textBorderColor": "inherit",
+				"textBorderWidth": 1,
+				"fontSize": 14
+			}
+		},
+		{
+			"name": "好友",
+			"symbolSize": 36,
+			"label": {
+				"color": "#ffffff",
+				"fontSize": 12,
+				"textBorderColor": "#91cc75",
+				"textBorderWidth": 1
+			}
+		},
+		{
+			"name": "可能认识的人",
+			"symbolSize": 24,
+			"label": {
+				"fontSize": 12,
+				"color": "#ffffff",
+				"textBorderColor": "#fac858",
+				"textBorderWidth": 1
+			}
+		}
+	]
+}
