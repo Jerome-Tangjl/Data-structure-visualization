@@ -54,5 +54,3 @@ Below are some screenshots of the visualizations:
 
 ### Social Network Visualization
 ![Social Network](socialnet.png)
-```
-
