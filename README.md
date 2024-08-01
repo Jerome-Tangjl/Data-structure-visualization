@@ -1,8 +1,58 @@
-项目启动方法：
-方法一：
-在源文件所在目录下的命令行中输入“npm run electron:serve”（可能需要提前下载node.js和electron），
-之后会自动弹出electron窗口供用户进行操作。
-或者也可以在浏览器中输入给定网址进行启动。
-方法二：
-在源文件所在目录下的命令行中输入“npm run serve”（可能需要提前下载node.js），
-之后在浏览器内输入命令行中显示的网址（一般为localhost:8080）也可启动项目。
+# Data Structure Visualization
+
+This project demonstrates the visualization of various data structures including binary trees and social networks. The project is implemented using Vue.js and ECharts.
+
+## Features
+
+- **Binary Tree Visualization:** A graphical representation of a binary tree structure, allowing for interactive manipulation and observation.
+- **Social Network Visualization:** A dynamic visualization of social network graphs, showcasing the relationships and connections between different entities.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Jerome-Tangjl/Data-structure-visualization.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd Data-structure-visualization
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+## Usage
+
+### Method 1: Using Electron
+
+In the command line within the source directory, run:
+```sh
+npm run electron:serve
+```
+You might need to download Node.js and Electron beforehand. An Electron window will automatically pop up for user interaction. Alternatively, you can also start the project by entering the given URL in a browser.
+
+### Method 2: Using Browser
+
+In the command line within the source directory, run:
+```sh
+npm run serve
+```
+You might need to download Node.js beforehand. Then, enter the URL shown in the command line (usually `localhost:8080`) in your browser to start the project.
+
+## Screenshots
+
+Below are some screenshots of the visualizations:
+
+### Main Visualization
+![Main](main.png)
+
+### Binary Tree Visualization
+![Binary Tree](bitree.png)
+
+### Social Network Visualization
+![Social Network](socialnet.png)
+```
+
